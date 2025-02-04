@@ -9,12 +9,6 @@
     transition-duration: 500ms;
 }
 
-.jersey-10-regular {
-    font-family: "Jersey 10", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
 .b {
     transform: rotate(90deg);
 }
@@ -88,21 +82,6 @@
         left: 780%;
         top: 300px;
     }
-    #filp1 {
-        top: 400px;
-        left: 5%;
-        
-    }
-
-    #filp2 {
-        top: 400px;
-        left: 5%;
-    }
-
-    #filp3 {
-        top: 400px;
-        left: 5%;
-    }
 }
 
 @media (max-width: 900px) {
@@ -118,9 +97,7 @@
     }
 
     .button {
-        position: relative;
-        left: 600%;
-        top: 750px;
+        display: none;
     }
 
     .packA {
@@ -129,42 +106,18 @@
     }
 
     #filp1 {
-        top: 60px;
+        top: -120px;
         left: 32%;
-        
     }
 
     #filp2 {
-        top: 250px;
+        top: 90px;
         left: 32%;
     }
 
     #filp3 {
-        top: 450px;
+        top: 300px;
         left: 32%;
     }
 
-}
-
-@media (max-width: 600px) {
-    .button {
-        position: relative;
-        left: 100px;
-        top: 750px;
-    }
-    #filp1 {
-        top: 10px;
-        left: 32%;
-        
-    }
-
-    #filp2 {
-        top: 200px;
-        left: 32%;
-    }
-
-    #filp3 {
-        top: 400px;
-        left: 32%;
-    }
 }
