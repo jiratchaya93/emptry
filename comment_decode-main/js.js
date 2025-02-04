@@ -167,7 +167,7 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             img.style.display = "inline"
         }
         if(ask_number == 9){
-            start_ask("A={{{{{{1, 2}}}}}, {4{1, 3}, {{4, 5, 6}}}} จงหา n(A)","ZOO","ZIP","SAW","SEE")
+            start_ask("A={{1, 2}, {4,{1, 3}, {{4, 5, 6}}}} จงหา n(A)","ZOO","ZIP","SAW","SEE")
         }
         if(ask_number == 10){
             start_ask("A = {{{{789,456]}},{1,{5,6,4},{{45}}}} B = {{1,2},{{2,6,5,7}},7} จงหา n(A+B) ","SO","OK","SEE","SAW")
@@ -248,7 +248,7 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             
         }
         if(ask_number == 5){
-            start_ask("คะแนนสอบของนักเรียน: 14, 34, 34, 338, 338 จงหาค่าฐานนิยมของข้อมูลชุดนี้","HE","ME","BE","TEA")
+            start_ask("คะแนนสอบของนักเรียน: 14, 34, 34, 338 จงหาค่าฐานนิยมของข้อมูลชุดนี้","HE","ME","BE","TEA")
         }
         if(ask_number == 6){
             start_ask("","HIS","HER","JOB","COP")
