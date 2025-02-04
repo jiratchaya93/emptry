@@ -16,6 +16,7 @@ const number_ask = document.getElementById("number")
 const number_img = document.getElementById("number_img")
 const img1 = document.getElementById("img1")
 const box_score = document.getElementById("box_score")
+const helper = document.getElementById("helper")
 
 var ask_number = 0 //ตัวนับข้อ
 var ask_score = 0 //ตัวนับข้อ
@@ -34,6 +35,7 @@ box_score.style.display = "none"
 function checkhead(text_ask, head1, head2,head3,head4) { //เริ่มจะทำการปิดส่วนที่ไม่จําเป็นและเปิดส่วนที่จําเป็นและสุ่มข้อที่ถูกและผิดs
     if (button_start.style.display != "none") { //กันerror
         button_start.style.display = "none"
+        helper.style.display = "none"
         main_ask.style.display = "inline"
         Choose_Ans.style.display = "inline"
         text_start.innerHTML = "START"
@@ -305,7 +307,7 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             start_ask("ให้ลำดับอนุกรมเรขาคณิต 5,10,20,40,.. จงหาผลบวกของ 6 พจน์แรก ของลำดับนี้และนำคำตอบที่ได้ +2","LIE","CRY","HE","SHE")
         }
         if(ask_number == 2){
-            start_ask("คะแนนสอบของนักเรียน: 14, 34, 34, 338, 338 จงหาค่าฐานนิยมของข้อมูลชุดนี้","HE","ME","BE","TEA")
+            start_ask("คะแนนสอบของนักเรียน: 14, 34, 34, 338 จงหาค่าฐานนิยมของข้อมูลชุดนี้","HE","ME","BE","TEA")
         }
         if(ask_number == 6){
             start_ask("","HIS","HER","JOB","COP")
