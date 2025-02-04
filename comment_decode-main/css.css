@@ -523,7 +523,8 @@ body {
 
 @media (max-width: 2301px) {
     .Ans {
-        left: 5%;
+        left: 1%;
+        bottom: 40px;
     }
 
 } 
@@ -563,7 +564,7 @@ body {
 
 @media (max-width: 1611px) {
     .Ans {
-       display: ;
+       
        width: 250px;
        font-size: 80%;
        bottom: 90px;
@@ -578,7 +579,6 @@ body {
 
 @media (max-width: 1590px) {
     .Ans {
-       display: ;
        width: 250px;
        font-size: 90%;
        bottom: 90px;
@@ -592,7 +592,6 @@ body {
 
 @media (max-width: 1366px) {
     .Ans {
-       display: ;
        width: 250px;
        font-size: 90%;
        bottom: 90px;
@@ -663,7 +662,7 @@ body {
 @media (max-width: 1000px) {
     .Ans {
         width: 300px;
-        font-size: 90%;
+        font-size: 50%;
         left: -70%;
         top: -100px;
     }
@@ -847,10 +846,11 @@ body {
         width: 200px;
         font-size: 50%;
         left: 47%;
-        top: -85px;
+        top: -110px;
     }
     .Ans_main {
         display: none;
+        bottom: 1px;
     }
    
     .score {
@@ -860,6 +860,7 @@ body {
         width: 15%;
         height: 5%;
     }
+
 
     
 }
