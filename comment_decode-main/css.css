@@ -587,7 +587,8 @@ body {
     .Ans {
        width: 250px;
        font-size: 90%;
-       bottom: 90px;
+       bottom: 150px;
+       left: -75%;
    }
 
     .Ans_main {
@@ -601,7 +602,7 @@ body {
     .Ans {
        width: 250px;
        font-size: 90%;
-       bottom: 100px;
+       bottom: 150px;
        left: -200px;
    }
 
@@ -617,8 +618,10 @@ body {
      .Ans {
         width: 200px;
         font-size: 85%;
-        bottom: 80px;
+        bottom: 150px;
         left: -75%;
+       
+       
     }
     .Ans_main {
         display: none;
@@ -725,7 +728,7 @@ body {
         width: 300px;
         font-size: 90%;
         left: -70%;
-        top: -80px;
+        top: -150px;
     }
     .Ans_main {
         display: none;
@@ -792,6 +795,18 @@ body {
     
 }
 
+@media (max-width: 540px) {
+    .Ans {
+        width: 200px;
+        font-size: 75%;
+        left: 25%;
+        top: -150px;
+    }
+    .Ans_main {
+        display: none;
+        
+    }
+
 @media (max-width: 500px) {
     .Ans {
         width: 200px;
@@ -853,7 +868,9 @@ body {
         width: 200px;
         font-size: 70%;
         left: 45%;
-        margin-top: 0px;
+        margin-top: -10px;
+        top: -100px;
+        
     }
     .Ans_main {
         display: none;
@@ -878,7 +895,8 @@ body {
         width: 200px;
         font-size: 60%;
         left: 47%;
-        top: -40px;
+        top: -150px;
+        margin-top: 5px;
     }
     .Ans_main {
         display: none;
@@ -894,7 +912,7 @@ body {
         width: 200px;
         font-size: 50%;
         left: 47%;
-        top: -110px;
+        top: -200px;
     }
     .Ans_main {
         display: none;
