@@ -771,12 +771,12 @@ body {
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 600px) {
     .Ans {
         width: 200px;
         font-size: 75%;
         left: 25%;
-        top: -10%;
+        top: -180px;
     }
     .Ans_main {
         display: none;
@@ -795,7 +795,7 @@ body {
     
 }
 
-@media (max-width: 540px) {
+@media (max-width: 599px) {
     .Ans {
         width: 200px;
         font-size: 75%;
@@ -835,12 +835,40 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .Ans {
+        width: 150px;
+        font-size: 75%;
+        left: 28%;
+        top: -140px;
+    }
+    .Ans_main {
+        display: none;
+        
+    }
+    .score {
+        top: 92%;
+        right: 1%;
+        font-size: 200%;
+        width: 15%;
+        height: 5%;
+    }
+
+    .img {
+        width: 75%;
+        top: 35%;
+    }
+    .ask {
+        font-size: 90%;
+    }
+}
+
 @media (max-width: 454px) {
     .Ans {
         width: 150px;
         font-size: 75%;
         left: 28%;
-        top: -50px;
+        top: -120px;
     }
     .Ans_main {
         display: none;
@@ -866,10 +894,10 @@ body {
 @media (max-width: 414px) {
     .Ans {
         width: 200px;
-        font-size: 70%;
-        left: 45%;
+        font-size: 50%;
+        left: 47%;
         margin-top: -10px;
-        top: -100px;
+        top: -200px;
         
     }
     .Ans_main {
@@ -889,6 +917,8 @@ body {
         top: 35%;
     }
 }
+
+
 
 @media (max-width: 390px) {
     .Ans {
