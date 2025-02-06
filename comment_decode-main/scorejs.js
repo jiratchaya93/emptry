@@ -4,6 +4,9 @@ const filp3 = document.getElementById('filp3')
 const ro = document.getElementById('ro')
 const Button_filp = document.getElementById('Button_filp')
 var x = document.documentElement.clientWidth
+const checknow = document.getElementById("checkbox")
+
+
 
 function reply_click(clicked_id) { //เปลี่ยนสี่ของกล่อง
   const x = document.getElementById(clicked_id)
@@ -15,6 +18,9 @@ function reply_click(clicked_id) { //เปลี่ยนสี่ของก�
     x.style.boxShadow = '0 0 10px #D15BFC, 0 0 21px #ffffff'
   }
 }
+
+
+
 
 function filp_box() { //filp กล่องทั้งหมด
   random = Math.floor(Math.random() * 2) + 1;

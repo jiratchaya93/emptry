@@ -123,6 +123,7 @@ function restart() { //เริมเกมใหม่และsetค่าใ
         img.style.width = "30%"
     }
     button_start.style.border = "5px solid #4CFFF6"
+    button_start.style.boxShadow = "initial"
     button_start.addEventListener("mouseover",function(){
         button_start.style.backgroundColor = "#4CFFF6"
         button_start.style.boxShadow = "0 0 10px #4CFFF6,0 0 21px #4CFFF6,0 0 42px #4CFFF6,0 0 82px #ffffff"
