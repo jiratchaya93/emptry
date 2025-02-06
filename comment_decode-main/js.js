@@ -122,6 +122,15 @@ function restart() { //เริมเกมใหม่และsetค่าใ
     if (Text_Ans1.style.fontSize > "32px") {
         img.style.width = "30%"
     }
+    button_start.style.border = "5px solid #4CFFF6"
+    button_start.addEventListener("mouseover",function(){
+        button_start.style.backgroundColor = "#4CFFF6"
+        button_start.style.boxShadow = "0 0 10px #4CFFF6,0 0 21px #4CFFF6,0 0 42px #4CFFF6,0 0 82px #ffffff"
+    })
+    button_start.addEventListener("mouseout",function(){
+        button_start.style.backgroundColor = "initial"
+        button_start.style.boxShadow = "initial"
+    })
 }
  
 
@@ -130,7 +139,6 @@ function next() { //เป็นfunctionให้function start_ask เอาข
     if (checkcate == 0 && ask_number == 0 ){
         checkhead("เลือกระดับของโจทย์","ระดับม.4","ระดับม.5","ระดับม.6","รวมม.ปลาย")
     }
-
     if (category == 1 ){
         if (ask_number == 1){
             start_ask("","EEL","SEE","LET","YET")
@@ -175,6 +183,7 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             start_ask("A = {{{{789,456]}},{1,{5,6,4},{{45}}}} B = {{1,2},{{2,6,5,7}},7} จงหา n(A+B) ","SO","OK","SEE","SAW")
             text_start.innerHTML = "REGAME"
             text_start.style.fontSize = "400%"
+            
         }
         if(ask_number == 11){
             restart()
@@ -225,6 +234,15 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             start_ask("จากการสุ่มเลือก 3 คนจากกลุ่มนักเรียน 10 คน เพื่อนำไปเป็นตัวแทนในการแข่งขัน โดยเลือกได้ไม่ซ้ำกัน ไม่ได้คำนึงถึงลำดับการเลือก) ถามว่า จะมีวิธีการเลือกตัวแทนได้ทั้งหมดกี่วิธี จากนั้นนำคำตอบมาหารด้วย 60","ZOO","SEE","SAW","OH")
             text_start.innerHTML = "REGAME"
             text_start.style.fontSize = "400%"
+            button_start.style.border = "5px solid #b331ff"
+            button_start.addEventListener("mouseover",function(){
+                button_start.style.backgroundColor = "#b331ff"
+                button_start.style.boxShadow = "0 0 10px #b331ff,0 0 21px #b331ff,0 0 42px #b331ff,0 0 82px #ffffff"
+            })
+            button_start.addEventListener("mouseout",function(){
+                button_start.style.backgroundColor = "initial"
+                button_start.style.boxShadow = "initial"
+            })
         }
         if(ask_number == 11){
             restart()
@@ -274,6 +292,16 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             start_ask("ชุดข้อมูล: 14, 28, 34, 338, 338, 415 จงหาฐานนิยม ของข้อมูลชุดนี้","BEE","SEE","SHE","EYE")
             text_start.innerHTML = "REGAME"
             text_start.style.fontSize = "400%"
+            button_start.style.border = "5px solid #b331ff"
+            button_start.addEventListener("mouseover",function(){
+                button_start.style.backgroundColor = "#b331ff"
+                button_start.style.boxShadow = "0 0 10px #b331ff,0 0 21px #b331ff,0 0 42px #b331ff,0 0 82px #ffffff"
+            })
+            button_start.addEventListener("mouseout",function(){
+                button_start.style.backgroundColor = "initial"
+                button_start.style.boxShadow = "initial"
+            })
+            
         }
         if(ask_number == 11){
             restart()
@@ -321,6 +349,15 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             start_ask("ชุดข้อมูล: 14, 28, 34, 338, 338, 415 จงหาฐานนิยม ของข้อมูลชุดนี้","BEE","SEE","SHE","EYE")
             text_start.innerHTML = "REGAME"
             text_start.style.fontSize = "400%"
+            button_start.style.border = "5px solid #b331ff"
+            button_start.addEventListener("mouseover",function(){
+                button_start.style.backgroundColor = "#b331ff"
+                button_start.style.boxShadow = "0 0 10px #b331ff,0 0 21px #b331ff,0 0 42px #b331ff,0 0 82px #ffffff"
+            })
+            button_start.addEventListener("mouseout",function(){
+                button_start.style.backgroundColor = "initial"
+                button_start.style.boxShadow = "initial"
+            })
         }
         if(ask_number==11){
             restart()

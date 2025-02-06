@@ -30,7 +30,7 @@ function cilcknext() { //เปลี่ยนภาพไปข้างหน�
         get = 0
     }
     if (get == sum) {
-        window.location = "https://guythetwo.github.io/webgamedecodemath/Decodemath.html";    
+        window.location = "https://jiratchaya93.github.io/emptry/comment_decode-main/Decodemath.html";    
     }
     img.src = 'img/' + x[get]
     text.innerHTML = t[get]
