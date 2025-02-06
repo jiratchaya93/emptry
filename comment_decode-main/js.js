@@ -184,6 +184,15 @@ function next() { //เป็นfunctionให้function start_ask เอาข
             start_ask("A = {{{{789,456]}},{1,{5,6,4},{{45}}}} B = {{1,2},{{2,6,5,7}},7} จงหา n(A+B) ","SO","OK","SEE","SAW")
             text_start.innerHTML = "REGAME"
             text_start.style.fontSize = "400%"
+            button_start.style.border = "5px solid #b331ff"
+            button_start.addEventListener("mouseover",function(){
+                button_start.style.backgroundColor = "#b331ff"
+                button_start.style.boxShadow = "0 0 10px #b331ff,0 0 21px #b331ff,0 0 42px #b331ff,0 0 82px #ffffff"
+            })
+            button_start.addEventListener("mouseout",function(){
+                button_start.style.backgroundColor = "initial"
+                button_start.style.boxShadow = "initial"
+            })
             
         }
         if(ask_number == 11){
